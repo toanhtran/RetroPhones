@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4B227D831C2584D900BE7A34 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B227D821C2584D900BE7A34 /* ProductViewController.swift */; };
 		4B227D851C26CB0800BE7A34 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B227D841C26CB0800BE7A34 /* ContactViewController.swift */; };
+		4B227D871C278A3C00BE7A34 /* ProductTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B227D861C278A3C00BE7A34 /* ProductTableTableViewController.swift */; };
+		4B227D8B1C28D78D00BE7A34 /* Produc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B227D8A1C28D78D00BE7A34 /* Produc.swift */; };
 		4BEB3F0E1C24E8CD00E82CA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB3F0D1C24E8CD00E82CA9 /* AppDelegate.swift */; };
 		4BEB3F131C24E8CD00E82CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BEB3F111C24E8CD00E82CA9 /* Main.storyboard */; };
 		4BEB3F151C24E8CD00E82CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BEB3F141C24E8CD00E82CA9 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		4B227D821C2584D900BE7A34 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		4B227D841C26CB0800BE7A34 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		4B227D861C278A3C00BE7A34 /* ProductTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableTableViewController.swift; sourceTree = "<group>"; };
+		4B227D8A1C28D78D00BE7A34 /* Produc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Produc.swift; sourceTree = "<group>"; };
 		4BEB3F0A1C24E8CD00E82CA9 /* RetroPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BEB3F0D1C24E8CD00E82CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BEB3F121C24E8CD00E82CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				4BEB3F191C24E8CD00E82CA9 /* Info.plist */,
 				4B227D821C2584D900BE7A34 /* ProductViewController.swift */,
 				4B227D841C26CB0800BE7A34 /* ContactViewController.swift */,
+				4B227D861C278A3C00BE7A34 /* ProductTableTableViewController.swift */,
+				4B227D8A1C28D78D00BE7A34 /* Produc.swift */,
 			);
 			path = RetroPhones;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B227D871C278A3C00BE7A34 /* ProductTableTableViewController.swift in Sources */,
 				4B227D831C2584D900BE7A34 /* ProductViewController.swift in Sources */,
+				4B227D8B1C28D78D00BE7A34 /* Produc.swift in Sources */,
 				4BEB3F0E1C24E8CD00E82CA9 /* AppDelegate.swift in Sources */,
 				4B227D851C26CB0800BE7A34 /* ContactViewController.swift in Sources */,
 			);

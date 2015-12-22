@@ -9,14 +9,24 @@
 import UIKit
 
 class ProductViewController: UIViewController {
+    
+    var product: Product?
 
     @IBOutlet weak var productNameLabel: UILabel!
     @IBOutlet weak var productImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let p = product {
+            productNameLabel.text = p.name
+            if let i = p.productImage {
+                productImageView.image = UIImage(named: i)
+            }
+        
+        }
 
-        productNameLabel.text = "1937 Desk Phone"
-        productImageView.image = UIImage(named: "phone-fullscreen-3")
+        
+        
     }
 
    
